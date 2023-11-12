@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+nav{
+    height: 120%;
+    width: 5%;
+    position: absolute;
+    background-color: white;
+
+}
+nav.album{
+    height: 280%;
+    width: 5%;
+    position: absolute;
+    background-color: white;
+}
+nav.clip{
+    height: 180%;
+    width: 5%;
+    position: absolute;
+    background-color: white;
+}
+nav.concert{
+    height:210%;
+    width: 5%;
+    position: absolute;
+    background-color: white;
+}
+nav:hover{
+    height: 120%;
+    width: 15%;
+    background-color: white;
+}
+nav.album:hover{
+    height: 280%;
+    width: 15%;
+    position: absolute;
+    background-color: white;
+}
+nav.clip:hover{
+    height: 180%;
+    width: 15%;
+    position: absolute;
+    background-color: white;
+}
+nav.concert:hover{
+    height: 210%;
+    width: 15%;
+    position: absolute;
+    background-color: white;
+}
+
+div.horsnav{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    min-width: 95%;
+    left: 5%;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+main{
+    width: 100%;
+    min-height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+footer{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 10px white;
+}
+
+img.logo{
+    height: 100%;
+
+}
+img.annonce{
+    width: 20vw;
+}
+h2{
+    font-size: 500%;
+}
+h3{
+    font-size: 250%;
+    margin-top: 30px;
+}
+img.nav1{
+    width: 5vw;
+}
+section.nav{
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-items: center;
+}
+
+h4{
+    font-size: 250%;
+}
+
+/* Pour la page album*/
+
+h2.albums{
+    color: white;
+    font-size: 350%;
+}
+section.album{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section.album2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section.cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.ligne{
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+img.cover{
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+h5.titre{
+    position: absolute;
+    width: 15vw;
+    height: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+}
+h5.titre:hover{
+    position: absolute;
+    width: 15vw;
+    height: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.593);
+    color: white;
+    font-size: 175%;
+    transition-duration: 1s;
+}
+
+/* Histoire*/
+
+section.biographie{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p.haut{
+    font-size: 150%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+h2.titrebio{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+p.corp{
+    
+    margin-left: 15%;
+    margin-right: 10%;
+}
+h3.partie{
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+.map{
+    height: 40%;
+    width: 60%;
+}
+h3.footer{
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+}
+p.footer{
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive*/
+@media screen and (max-width: 600px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    nav.clip{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    nav.concert{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    nav.album{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    nav:hover{
+        height: 5%;
+        width: 100%;
+        position: relative;
+    }
+    nav.clip:hover{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    nav.concert:hover{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    nav.album:hover{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    h4{
+        font-size: 200%;
+    }
+}
